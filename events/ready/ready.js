@@ -22,10 +22,10 @@ module.exports = async (client) => {
         `${Guilds} Servers`,
         `${totalUsers} Users`
       ];
-      let ActivityPower = `${Activity[Math.floor(Math.random() * Activity.length)]} | Ticker Boy`;
+      let ActivityPower = `${Activity[Math.floor(Math.random() * Activity.length)]} | Arcadian Ticket`;
       let Display = [ 1, 3 ]; //can be: Discord.ActivityType.Competing = 5 or	Discord.ActivityType.Custom =	4 or Discord.ActivityType.Listening	= 2 or Discord.ActivityType.Playing =	0 or Discord.ActivityType.Streaming =	1 or Discord.ActivityType.Watching =	3
       let DisplayPower = Display[Math.floor(Math.random() * Display.length)];
-      let URL = [ `https://www.twitch.tv/sobhan_srza` ];
+      let URL = [ `https://www.twitch.tv/` ];
       let URLPower = URL[Math.floor(Math.random() * URL.length)];
       client.user.setPresence({ 
         activities: [{ 
